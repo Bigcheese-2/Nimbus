@@ -12,10 +12,15 @@ export default function TomorrowWeather() {
     <div>
       <div className="flex flex-col gap-8 py-24 items-center">
         <div className="flex flex-col justify-center items-center gap-3">
-          <h1 className="text-3xl xl:text-6xl font-bold text-[#AD36CB]/60">
+          <h1 className="text-3xl xl:text-6xl font-bold text-[#AD36CB]/80">
             Tomorrow&apos;s Weather
           </h1>
-          <p className="text-[#695D5D]">Stay Prepared for What&apos;s Ahead</p>
+          <div>
+            <p className="text-[#695D5D]">
+              Stay Prepared for What&apos;s Ahead,
+            </p>
+            <p className="text-[#695D5D]">Any City Anywhere in the World!</p>
+          </div>
         </div>
 
         <SearchBar onSearch={fetchTomorrowWeather} loading={loading} />

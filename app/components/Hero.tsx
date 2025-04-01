@@ -11,8 +11,9 @@ export default function Hero() {
     <div>
       <div className="flex flex-col gap-10 py-20">
         <div className=" flex flex-col gap-3  text-center max-w-4xl mx-auto">
-          <h1 className="text-3xl xl:text-6xl font-bold text-[#AD36CB]/60">
-            Stay Ahead of the Weather with Nimbus
+          <h1 className="text-3xl xl:text-6xl text-white font-bold">
+            Stay Ahead of the Weather with
+            <span className="text-[#AD36CB]/80 ml-1">Nimbus</span>
           </h1>
           <p className="text-[#695D5D]">
             Get real-time, accurate forecasts for your city and beyond
