@@ -13,7 +13,6 @@ interface NavLink {
 const NavLinks: NavLink[] = [
   { text: "Today", href: "/" },
   { text: "Tomorrow", href: "/tomorrow" },
-  { text: "Monthly Forecast", href: "/monthly-forecast" },
 ];
 
 export default function Navbar() {
