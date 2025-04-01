@@ -10,7 +10,7 @@ export default function TomorrowWeather() {
 
   return (
     <div>
-      <div className="flex flex-col gap-8 py-20 items-center">
+      <div className="flex flex-col gap-8 py-24 items-center">
         <div className="flex flex-col justify-center items-center gap-3">
           {" "}
           <h1 className="text-3xl xl:text-6xl font-bold text-[#AD36CB]/60">
