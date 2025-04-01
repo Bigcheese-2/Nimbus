@@ -1,5 +1,4 @@
 import React from "react";
-import SearchBar from "./components/search/SearchBar";
 import Hero from "./components/Hero";
 import Cities from "./components/Cities";
 

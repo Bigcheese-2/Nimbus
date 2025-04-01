@@ -3,7 +3,7 @@ import React from "react";
 import SearchBar from "../components/search/SearchBar";
 import { useWeather } from "@/hooks/useWeather";
 import moment from "moment";
-import { MapPin, Thermometer, Wind } from "lucide-react";
+import { MapPin, Thermometer } from "lucide-react";
 
 export default function TomorrowWeather() {
   const { weather, loading, error, fetchTomorrowWeather } = useWeather();

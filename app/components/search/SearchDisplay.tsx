@@ -1,5 +1,5 @@
 import React from "react";
-import { MapPin, Thermometer, Wind } from "lucide-react";
+import { MapPin, Thermometer } from "lucide-react";
 import moment from "moment";
 import { WeatherData } from "@/app/types/weather";
 
